@@ -91,3 +91,23 @@ h2{
     color: var(--color-white);
     
 }
+/* LIST */
+.list {
+    list-style: none;
+    font-size: 1.6rem;
+    padding-right: 2rem;
+    
+}
+.list--tick .list__item{
+    background: url("/assets/image/Tick-Square.svg") no-repeat;
+    background-position: right center;
+    padding-right: 3rem;
+    margin-bottom: 1.5rem;
+}
+@media screen and (min-width: 1024px) {
+    .list--tick .list__item{
+        font-size: 1.8rem;
+        margin-bottom: 2rem;
+    }
+    
+}
