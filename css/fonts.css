@@ -11,5 +11,5 @@
     src: url("/assets/fonts/Vazir-Bold.woff") format("woff");
 }
 body , button {
-    font-size: "iranyekan";
+    font-family: "iranyekan";
 }

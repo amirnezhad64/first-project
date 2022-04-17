@@ -43,3 +43,36 @@ h2{
     }  
 }
 
+/* BUTTONS */
+.btn{
+   cursor: pointer;
+   margin: 1rem;
+   border: 0;
+   outline: 0;
+   border-radius: 8px;
+   text-align: center;
+   padding: 2rem 2.5rem;
+   font-size: 1.4rem;
+   white-space: nowrap;
+}
+.btn--primary{
+    background-color: var(--color-primary);
+    color: var(--color-white);
+}
+.btn--secondary{
+    background-color: var(--color-secondary-dark);
+    color: var(--color-white);
+}
+.btn--block{
+    width: 100%;
+    font-size: 1.6rem;
+}
+@media screen and (min-width:1024px) {
+    .btn{
+        font-size: 1.6rem;
+    }
+    .btn--block{
+        font-size: 2rem;
+    }
+    
+}
