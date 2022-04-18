@@ -7,6 +7,7 @@
 /* ROOT VARIABLE */
 :root{
     --color-primary:#ff5722;
+    --color-primary-light:#ff7a50;
     --color-secondary-light:#fff6f2;
     --color-secondary-dark:#ffa589;
     --color-navbar:#f8f8f8;
@@ -95,7 +96,7 @@ h2{
 .list {
     list-style: none;
     font-size: 1.6rem;
-    padding-right: 2rem;
+    padding-right: 1rem;
     
 }
 .list--tick .list__item{
@@ -110,4 +111,71 @@ h2{
         margin-bottom: 2rem;
     }
     
+}
+/* PLAN-SECTION */
+
+.block-plan{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit,minmax(250px,330px));
+    gap:8rem 5rem;
+    margin-top: 5rem;
+}
+.plan{
+    font-size: 1.8rem;
+    transition: all 0.3s ease-in-out;
+  
+}
+.plan__introduction{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+.plan__price{
+    font-size: 3rem;
+}
+.plan__description{
+    display: block;
+    margin-top: 2rem;
+}
+.plan__popular{
+    transform: scale(1.1);
+}
+.plan__popular:hover{
+    transform: scale(1.15);
+}
+.plan:hover{
+    transform: scale(1.05);
+}
+.card{
+    border-radius: 30px;
+    overflow: hidden;
+    box-shadow: 0 0 30px 10px rgb(245, 241, 241);
+   
+    
+}
+.card__header , .card__body{
+    padding: 3rem 2rem;
+}
+.card__header.card--secondary{
+    background-color: var(--color-secondary-dark);
+    color: var(--color-white);
+}
+.card__header.card--primary{
+    background-color: var(--color-primary-light);
+    color: var(--color-white);
+}
+.btn--block{
+    font-size: 1.6rem;
+    margin-top: 10rem;
+}
+@media screen and (min-width:1024px) {
+    .btn--block{
+        font-size: 1.8rem;
+    }
+}
+/* CONTAINER */
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
 }
