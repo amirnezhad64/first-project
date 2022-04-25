@@ -233,6 +233,8 @@ h2{
   
 }
 /* CONTACT-US */
+
+
 .contact-us{
     display: grid;
 }
@@ -307,5 +309,19 @@ h2{
         font-size: 1.4rem;
     }
 
+    
+}
+/* SOCIAL MEDIA */
+.contact-us__social{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+@media screen  and (min-width:1024px){
+    .contact-us__social{
+        display: flex;
+        justify-content: flex-end;
+        margin-left: 2rem;
+    }
     
 }
