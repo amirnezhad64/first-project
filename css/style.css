@@ -472,7 +472,17 @@ textarea{
     display: flex;
     flex-direction: column;
     font-size: 1.4rem;
+    /* HSMBERGER MENU */
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
 }
+/* HAMBERGER MENU */
+.nav.nav__expanded .nav__list{
+    max-height: 100vh;
+    opacity: 1;
+}
+/*  */
 .nav__item{
     border-bottom: 1px solid #ccc;
     margin-bottom: 1rem;
@@ -491,6 +501,12 @@ textarea{
 .nav__item.cta>a{
     color: #fff;
     font-size: 1.4rem;
+   
+    
+}
+.nav__item.cta{
+    border: 0;
+    
 }
 .nav__item .btn{
     padding: 1rem 3rem;
@@ -509,6 +525,10 @@ textarea{
         flex-direction: row;
         align-items: center;
         width: auto;
+        /* HAMBERGUR MENU */
+        opacity: 1;
+        max-height: 100%;
+     
         
     }
     .nav__item{
@@ -520,8 +540,10 @@ textarea{
     .nav__toggler{
         display: none;
     }
+
     
 }
+
 
 
 
