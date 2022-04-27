@@ -476,6 +476,7 @@ textarea{
     max-height: 0;
     overflow: hidden;
     opacity: 0;
+    transition: all 0.4s ease-in-out;
 }
 /* HAMBERGER MENU */
 .nav.nav__expanded .nav__list{
@@ -511,10 +512,33 @@ textarea{
 .nav__item .btn{
     padding: 1rem 3rem;
 }
-
+/* TOGGLER */
 .nav__toggler{
-    background-color: gold;
+    cursor: pointer;
 }
+.bar{
+    width: 25px;
+    height: 4px;
+    background-color:#000;
+    margin: 5px;
+    border-radius: 7px;
+    transition: all 0.4s ease-in-out;
+
+}
+.nav.nav__expanded .bar-one{
+    transform: rotate(-45deg) translate(-9px,6px);
+    margin: 8px 0;
+}
+.nav.nav__expanded .bar-two{
+    opacity: 0;
+    transform: translateX(-20px);
+  
+}
+.nav.nav__expanded .bar-three{
+    transform: rotate(45deg) translate(-8px,-8px);
+    margin: 8px 0;
+}
+
 
 @media screen and (min-width:768px) {
     .nav{
@@ -543,6 +567,8 @@ textarea{
 
     
 }
+
+
 
 
 
