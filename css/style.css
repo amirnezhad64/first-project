@@ -634,6 +634,7 @@ textarea{
        width: 540px;
        border-radius: 20px;
        padding: 2.5rem;
+
    }
    .intro-wrapper{
        flex-direction: row;
@@ -646,6 +647,9 @@ textarea{
    }
    .intro-btn h2{
        font-size: 2.5rem;
+   }
+   .phone-banner{
+       display: block;
    }
     
 }
