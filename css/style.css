@@ -790,7 +790,7 @@ textarea{
     box-shadow: 0 10px 30px rgba(0,0,0,0.06);
     border-radius: 32px;
     padding: 1rem 3rem;
-    width: 85%;
+    width: 88%;
     transform: translateY(-60px);
 }
 .slide__header{
@@ -800,17 +800,18 @@ textarea{
 
 }
 .slide__header p{
-    font-size: 1.2rem;
+    font-size: 1rem;
     margin-right: 0.5rem;
 }
 .slide__header .badge{
-    font-size: 1.2rem;
+    font-size: 1rem;
    
     padding: 0.1rem 1.2rem;
 }
 .slide_detail .slide__title{
     font-size: 1.4rem;
     font-weight: 700;
+    margin-top: 1rem;
 }
  .slide_detail .slide__icons{
     display: flex;
@@ -873,9 +874,12 @@ textarea{
     transform: rotate(-90deg);
 }
 /* AVATAR */
+
+
 .avatar-group{
     display: flex;
     align-items: center;
+    margin-top: 1rem;
 }
 .avatar-group .avatar{
     width: var(--avatar-size);
