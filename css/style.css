@@ -919,6 +919,50 @@ textarea{
     cursor: pointer;
 }
 
+/* RADIO BUTTON-SECTION */
+
+.select-type{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.select-control input{
+    display: none;
+}
+.select-control{
+    cursor: pointer;
+    flex-grow: 1;
+
+}
+.select-type :not(:last-child){
+    margin-left: 2rem;
+}
+.select-control label{
+    width: 100%;
+    cursor: pointer;
+    border: 2px solid #ccc;
+    border-radius: 30px;
+    display: block;
+    font-weight: 700;
+    padding: 1rem 2rem;
+    text-align: center;
+    color: #444;
+    position: relative;
+}
+.select-control label::before{
+
+    cursor: pointer;
+    content: "";
+    width: 15px;
+    height: 15px;
+    box-shadow: 0 0 0 2px #ccc;
+    position: absolute;
+    border-radius: 100%;
+    right: 2rem;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
 
 
 
