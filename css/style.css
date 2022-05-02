@@ -45,9 +45,7 @@ h2{
         font-size: 3.5rem;
     }  
 }
-/* .block{
-    padding: 4rem 2rem;
-} */
+
 
 /* BUTTONS */
 .btn{
@@ -979,6 +977,16 @@ textarea{
 
 }
 
+/* BLOCK */
+.block{
+    padding: 4rem 2rem;
+}
+@media screen and (min-width:1024px) {
+    .block{
+        padding: 6rem 2rem;
+    }
+    
+}
 
 
 
