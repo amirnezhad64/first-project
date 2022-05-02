@@ -931,14 +931,16 @@ textarea{
 }
 .select-control{
     cursor: pointer;
-    flex-grow: 1;
+    /* flex-grow: 1; */
+    width: 100%;
+    /* margin-left: 2rem; */
 
 }
 .select-type :not(:last-child){
     margin-left: 2rem;
 }
 .select-control label{
-    width: 100%;
+   
     cursor: pointer;
     border: 2px solid #ccc;
     border-radius: 30px;
@@ -948,6 +950,7 @@ textarea{
     text-align: center;
     color: #444;
     position: relative;
+    transition: all 0.3s ease-out;
 }
 .select-control label::before{
 
@@ -961,6 +964,19 @@ textarea{
     right: 2rem;
     top: 50%;
     transform: translateY(-50%);
+    border: 2px solid #fff;
+    transition: all 0.3s ease-out;
+}
+.select-control  input:checked  + label{
+    color: var(--color-primary);
+    border: 2px solid var(--color-primary);
+
+}
+.select-control input:checked + label::before{
+    background-color: var(--color-primary);
+    color: var(--color-primary);
+    box-shadow: 0 0 0 2px var(--color-primary);
+
 }
 
 
