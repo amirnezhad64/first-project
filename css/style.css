@@ -605,7 +605,7 @@ textarea{
 .intro-btn h2{
     color: #fff;
     font-size: 1.5rem;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
 }
 .intro-wrapper{
     display: flex;
@@ -641,15 +641,13 @@ textarea{
        align-items: center;
    }
    .intro-btn h1{
-       font-size: 5rem;
+       font-size: 3rem;
        
    }
    .intro-btn h2{
-       font-size: 2.5rem;
+       font-size: 2rem;
    }
-   .phone-banner{
-       display: block;
-   }
+   
     
 }
 
