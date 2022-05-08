@@ -658,6 +658,12 @@ textarea{
    .intro-btn__passenger p{
     font-size: 1.5rem;
 }
+.hero-wrapper{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 5rem;
+}
 
    
     
