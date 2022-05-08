@@ -176,9 +176,7 @@ h2{
     .btn--block{
         font-size: 1.8rem;
     }
-    .block-plan{
-        margin-top: 8rem;
-    }
+   
 }
 /* CONTAINER */
 .container{
@@ -236,10 +234,7 @@ h2{
         width: 100%;
     
     }
-    .feature.charge{
-        margin-bottom: 7rem;
-    }
-  
+    
 }
 
 /* CONTACT-US */
@@ -1004,16 +999,17 @@ textarea{
 
 /* BLOCK */
 .block{
-    padding: 4rem 2rem;
+    padding: 2rem 2rem;
 }
 @media screen and (min-width:1024px) {
     .block{
-        padding: 6rem 2rem;
+        padding: 4rem 2rem;
     }
     
 }
-.block-heading{
-    margin-top: 6rem;
+.block__heading{
+    margin-top: 2rem;
+    
 }
 
 
