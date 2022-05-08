@@ -176,6 +176,9 @@ h2{
     .btn--block{
         font-size: 1.8rem;
     }
+    .block-plan{
+        margin-top: 8rem;
+    }
 }
 /* CONTAINER */
 .container{
@@ -212,6 +215,7 @@ h2{
 @media screen and (min-width:1024px) {
     .feature{
         grid-template-columns: repeat(2,1fr);
+        margin-bottom: 3rem;
     }
     .feature .btn{
         font-size: 1.6rem;
@@ -231,6 +235,9 @@ h2{
         order: 1;
         width: 100%;
     
+    }
+    .feature.charge{
+        margin-bottom: 7rem;
     }
   
 }
@@ -678,6 +685,7 @@ textarea{
     align-items: center;
     overflow: auto;
     padding: 5px 0 15px;
+
 }
 .services__tabs img{
     max-width: 85px;
@@ -722,6 +730,7 @@ textarea{
    display: flex;
    justify-content: space-between;
    align-items: center;
+   margin-bottom: 3rem;
    
    display: none;
 } 
