@@ -571,6 +571,7 @@ textarea{
 .hero-section{
     width: 100%;
     height: 478px;
+    position: relative;
 }
 .hero-section img{
     width: 100%;
@@ -579,6 +580,7 @@ textarea{
 .hero-wrapper{
     position: absolute;
     top: 0;
+    left: 0;
     width: 100%;
     height: 478px;
     display: flex;
@@ -592,20 +594,22 @@ textarea{
      background-image: linear-gradient(51deg, rgba(23,26,60,0.7)5% , rgba(23,26,60,0.3)95% ); 
      border-radius: 12px; 
      padding: 1.6rem;
-     width: 270px;
+     max-width: 270px;
      display: flex;
      flex-direction: column;
+     align-items: center;
    
 
 }
 .intro-btn h1{
     color: #fff;
     font-size: 2.5rem;
+    margin-top: 0;
 }
 .intro-btn h2{
     color: #fff;
     font-size: 1.5rem;
-    margin-bottom: 2rem;
+    margin-bottom: 2.5rem;
 }
 .intro-wrapper{
     display: flex;
@@ -614,13 +618,16 @@ textarea{
 }
 .intro-btn__passenger{
     background-color: #fff;
-    font-size: 1.7rem;
     border-radius: 12px;
     margin-bottom: 2rem;
     padding: 1.4rem;
     width: 220px;
     
 }
+.intro-btn__passenger p{
+    font-size: 1.3rem;
+}
+
 .intro-btn__passenger.driver-intro{
     background-color: rgba(23, 26, 60, 0.5) !important;
     border: 2px solid #fff; 
@@ -628,11 +635,11 @@ textarea{
 }
 
 
-@media screen and (min-width:768px) {
+@media screen and (min-width: 768px) {
    .intro-btn{
-       width: 540px;
+        max-width: 500px;
        border-radius: 20px;
-       padding: 2.5rem;
+       padding:0 2.5rem;
 
    }
    .intro-wrapper{
@@ -641,12 +648,17 @@ textarea{
        align-items: center;
    }
    .intro-btn h1{
-       font-size: 3rem;
+       font-size: 4rem;
        
    }
    .intro-btn h2{
        font-size: 2rem;
+       font-weight: 400;
    }
+   .intro-btn__passenger p{
+    font-size: 1.5rem;
+}
+
    
     
 }
@@ -984,6 +996,9 @@ textarea{
         padding: 6rem 2rem;
     }
     
+}
+.block-heading{
+    margin-top: 6rem;
 }
 
 
