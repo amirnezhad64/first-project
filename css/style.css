@@ -1001,14 +1001,20 @@ textarea{
 .block{
     padding: 2rem 2rem;
 }
+.block__heading{
+    margin-bottom: 3rem;
+}
+
+
 @media screen and (min-width:1024px) {
     .block{
-        padding: 4rem 2rem;
+        padding: 6rem 2rem;
     }
+    .block__heading{
     
-}
-.block__heading{
-    margin-top: 2rem;
+        margin: 6rem 0;
+        
+    }
     
 }
 
